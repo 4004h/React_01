@@ -1,5 +1,5 @@
-import ColoredMessage from "./components/ColoredMessage.jsx"
-import ColoredMessage2 from "./components/ColoredMessage2.jsx"
+import Login from "./components/login"
+
 
 function App() { //함수명
   const aaa = (param)=>{
@@ -16,15 +16,7 @@ function App() { //함수명
   }
   return (
     <div style = {{border:"1px solid black"}}>
-
-      <p style={{color:"blue",fontSize:"32px"}}>안녕하세여</p>
-      {/* <p style={redStyle}>반가워여 잘지내지</p> */}
-      <ColoredMessage color="orange" message="잘지내시죠?"/>
-      <ColoredMessage color="red" message="how do you do"/>
-      <ColoredMessage2 color="blue">잘지내</ColoredMessage2>
-      <p style={ pinkStyle }>잘지내</p>
-      <button onClick={aaa} data="강아지">버튼</button>
-
+      <Login/>
     </div>
   )
 }
