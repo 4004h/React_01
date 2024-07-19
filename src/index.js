@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import App from './st-06/App'; //가저온 이름
+import App from './st-08/App'; //가저온 이름
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
