@@ -1,9 +1,9 @@
-import LoginBox from "./components/login"
+import Counter from './counter'
 
 function App() { //함수명
   return (
     <div>
-      <LoginBox/>
+      <Counter/>
     </div>
   )
 }

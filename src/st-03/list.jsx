@@ -1,3 +1,4 @@
+// import "./list_2.css"
 import "./list.css"
 import React,{ useState } from "react"
 
@@ -6,7 +7,7 @@ export default function List(params) {
 
   function Addlist(params) {
     return(
-      <div className="addlist"> <div className="data"> {params.i+1}. {params.name} ({params.age})세 {params.job} </div> 
+      <div key={params.key} className="addlist"> <div className="data"> {params.i+1}. {params.name} ({params.age})세 {params.job} </div> 
       <button onClick={()=>{
         let 삭제 = [...리스트]
         삭제.splice(params.i,1)

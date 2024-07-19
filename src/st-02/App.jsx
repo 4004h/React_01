@@ -1,7 +1,9 @@
+import LoginBox from "./login"
+
 function App() { //함수명
   return (
     <div>
-      1234
+      <LoginBox/>
     </div>
   )
 }

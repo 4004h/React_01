@@ -1,9 +1,9 @@
-import List from "./components/list"
+import Gate from './gate_2';
 
 function App() { //함수명
   return (
     <div>
-      <List/>
+      <Gate/>
     </div>
   )
 }
