@@ -1,5 +1,6 @@
 import Score from './ScoreComp';
 
+
 function App() { //함수명
   return (
     <div>

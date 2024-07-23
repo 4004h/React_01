@@ -8,8 +8,11 @@ export default function ScoreComp(params) {
   const [mat, setmat] = useState(0)
 
   const [isGrade, setIsGrade] = useState(false)
-  
+  let kor_, eng_, mat_
   function GradeText(params) {
+    // setkor(kor_)
+    // setkor(eng_)
+    // setkor(mat_)
     setIsGrade(true)
   }
 
